@@ -158,19 +158,19 @@ const HeaderBar = (props) => {
           <Route exact path="/">
               <Home/>
           </Route>
-          <Route exact path="/sludge">
+          <Route path="/sludge">
               <Sludge/>
           </Route>
-          <Route exact path="/screenings">
+          <Route path="/screenings">
               <Screenings/>
           </Route>
-          <Route exact path="/biosolids">
+          <Route path="/biosolids">
               <Biosolids/>
           </Route>
-          <Route exact path="/quote">
+          <Route path="/quote">
               <Quote/>
           </Route>
-          <Route exact path="/contact">
+          <Route path="/contact">
               <Contact/>
           </Route>
     </Switch>
@@ -178,4 +178,4 @@ const HeaderBar = (props) => {
   );
 };
 
-export default withRouter(HeaderBar);
+export default(HeaderBar);

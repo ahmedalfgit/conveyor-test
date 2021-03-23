@@ -18,6 +18,8 @@ export default function App() {
   return (
     <div>
       <HeaderBar />
+      <Home/>
+      
       {/* <Switch>
         <Route exact from="/" render={(props) => <Home {...props} />} />
         <Route exact path="/sludge" render={(props) => <Sludge {...props} />} />
