@@ -25,7 +25,7 @@
     "react-router-dom": "^5.2.0",
     "react-scripts": "^4.0.2"
   },
-  "homepage": ".",
+  "homepage": "https://ahmedalfgit.github.io/conveyor-test/",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
